@@ -1,0 +1,6 @@
+ERROR:root:Error in agent execution: This function requires a .bind_tools method be implemented on the LLM.
+ERROR:root:Error in agent execution: This function requires a .bind_tools method be implemented on the LLM.
+ERROR:root:Error in agent execution: This function requires a .bind_tools method be implemented on the LLM.
+ERROR:root:Error in agent execution: This function requires a .bind_tools method be implemented on the LLM.
+ERROR:root:Error in agent execution: variable agent_scratchpad should be a list of base messages, got  of type <class 'str'>
+WARNING:root:Agent failed, using fallback: 'Input to PromptTemplate is missing variables {\'"param"\'}.  Expected: [\'"param"\', \'agent_scratchpad\', \'input\'] Received: [\'input\', \'intermediate_steps\', \'agent_scratchpad\']\nNote: if you intended {"param"} to be part of the string and not a variable, please escape it with double curly braces like: \'{{"param"}}\'.\nFor troubleshooting, visit: https://python.langchain.com/docs/troubleshooting/errors/INVALID_PROMPT_INPUT '
